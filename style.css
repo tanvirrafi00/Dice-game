@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+   
+}
+.dice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+   
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+    padding:40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.player p{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    font-weight: 600;
+}
+.play-btn{
+    padding: 6px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    width:150px;
+}
+
+.winner_name{
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+    font-weight: 600;
+}
